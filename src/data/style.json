@@ -1,0 +1,6 @@
+{
+    "fontSize": ["14px Fira Sans, sans-serif", "18px Fira Sans, sans-serif", "22px Fira Sans, sans-serif"],
+    "fontColor":["black", "blue","yellow"],
+    "fontBackground":{"dark grey":"#6860606e","light blue":"#7f9ace6e","light green":"#7fce7f6e"},
+    "fontTheme":{"regular":["black","dark grey"], "soothing":["black","light blue"]}
+}

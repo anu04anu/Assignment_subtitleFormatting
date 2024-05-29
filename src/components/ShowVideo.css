@@ -1,0 +1,32 @@
+.responsive-video-box {
+    width: 65vw;
+    height: 60vh;
+    margin-top: 20px;
+    background-color: black;
+    display: flex;
+    margin-bottom: 10px;
+}
+.video-container {
+    height: 99%;
+    width: 99%;
+    align-self: center;
+    justify-self: center;
+}
+video::cue {
+    font:var(--cue-font);
+    color: var(--cue-color);
+    background:var(--cue-background);
+    overflow-wrap: break-word;
+}
+@media screen and (max-width: 420px) {
+    .responsive-video-box {
+        width: 90vw;
+        height: 27vh;
+    }
+}
+@media screen and (max-height: 500px) {
+    .responsive-video-box {
+        width: 70vw;
+        height: 90vh;
+    }
+}
